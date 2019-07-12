@@ -9,11 +9,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using ProperWebAPI.Options;
-using ProperWebAPI.Services;
+using iTopAPIClient.Options;
+using iTopAPIClient.Services;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace ProperWebAPI.Installers
+namespace iTopAPIClient.Installers
 {
     public class MvcInstaller : IInstaller
     {
@@ -52,7 +52,7 @@ namespace ProperWebAPI.Installers
             
             services.AddSwaggerGen(x =>
             {
-                x.SwaggerDoc(name:"v1", new Info { Title = "Tweetbook API", Version = "v1" });
+                x.SwaggerDoc(name:"v1", new Info { Title = jwtOptions.AppName, Version = "v1" });
                 var security = new Dictionary<string, IEnumerable<string>>
                 {
                     {"Bearer", new string[0] }

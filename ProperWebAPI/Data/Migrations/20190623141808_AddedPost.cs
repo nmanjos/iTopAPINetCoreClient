@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ProperWebAPI.Data.Migrations
+namespace iTopAPIClient.Data.Migrations
 {
     public partial class AddedPost : Migration
     {

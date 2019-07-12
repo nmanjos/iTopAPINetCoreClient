@@ -7,10 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
-using ProperWebAPI.Domain;
-using ProperWebAPI.Options;
+using iTopAPIClient.Domain;
+using iTopAPIClient.Options;
 
-namespace ProperWebAPI.Services
+namespace iTopAPIClient.Services
 {
     public class IdentityService : IIdentityService
     {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using ProperWebAPI.Data;
-using ProperWebAPI.Domain;
+using iTopAPIClient.Data;
+using iTopAPIClient.Domain;
 
-namespace ProperWebAPI.Services
+namespace iTopAPIClient.Services
 {
     public class PostService : IPostService
     {

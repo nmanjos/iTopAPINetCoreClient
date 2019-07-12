@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <UserSecretsId>aspnet-ProperWebAPI-FB938B52-9403-429D-BA26-1DB4329BC65F</UserSecretsId>
+    <UserSecretsId>aspnet-iTopAPIClient-FB938B52-9403-429D-BA26-1DB4329BC65F</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 

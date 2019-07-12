@@ -3,9 +3,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProperWebAPI.Data;
+using iTopAPIClient.Data;
 
-namespace ProperWebAPI.Data.Migrations
+namespace iTopAPIClient.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -177,7 +177,7 @@ namespace ProperWebAPI.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ProperWebAPI.Domain.Post", b =>
+            modelBuilder.Entity("iTopAPIClient.Domain.Post", b =>
                 {
                     b.Property<byte[]>("Id")
                         .ValueGeneratedOnAdd()

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProperWebAPI.Contract.V1.Requests
+namespace iTopAPIClient.Contract.V1.Requests
 {
     public class UserRegistrationRequest
     {

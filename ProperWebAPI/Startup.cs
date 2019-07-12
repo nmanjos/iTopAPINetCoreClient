@@ -10,16 +10,16 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ProperWebAPI.Data;
+using iTopAPIClient.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ProperWebAPI.Options;
+using iTopAPIClient.Options;
 using Swashbuckle.AspNetCore.Swagger;
-using ProperWebAPI.Installers;
+using iTopAPIClient.Installers;
 using Microsoft.Extensions.Logging;
 using CorrelationId;
 
-namespace ProperWebAPI
+namespace iTopAPIClient
 {
     public class Startup
     {

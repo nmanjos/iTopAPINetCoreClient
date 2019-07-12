@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProperWebAPI.Contract.V1
+namespace iTopAPIClient.Contract.V1
 {
     public static class ApiRoutes
     {

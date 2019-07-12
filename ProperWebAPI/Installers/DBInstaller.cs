@@ -7,12 +7,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using ProperWebAPI.Data;
-using ProperWebAPI.Services;
+using iTopAPIClient.Data;
+using iTopAPIClient.Services;
 
 
 
-namespace ProperWebAPI.Installers
+namespace iTopAPIClient.Installers
 {
     public class DBInstaller : IInstaller
     {

@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProperWebAPI.Domain;
+using iTopAPIClient.Domain;
 
-namespace ProperWebAPI.Data
+namespace iTopAPIClient.Data
 {
     //mysql user:WebApiUser password: n4C1YI8oVEXIV57i1OSOxukInaDavI
     public class DataContext : IdentityDbContext

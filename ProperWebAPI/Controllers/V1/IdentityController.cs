@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProperWebAPI.Contract.V1;
-using ProperWebAPI.Contract.V1.Requests;
-using ProperWebAPI.Contract.V1.Response;
-using ProperWebAPI.Services;
+using iTopAPIClient.Contract.V1;
+using iTopAPIClient.Contract.V1.Requests;
+using iTopAPIClient.Contract.V1.Response;
+using iTopAPIClient.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProperWebAPI.Controllers.V1
+namespace iTopAPIClient.Controllers.V1
 {
     public class IdentityController : Controller
     {

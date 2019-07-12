@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace iTopAPIClient.Contract.V1.Response
+namespace iTopAPIClient.Services
 {
-    public class PostResponse
+    interface IiTopClientService
     {
-        public Guid Id { get; set; }
     }
 }

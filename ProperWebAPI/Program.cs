@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using NetCoreLogger;
 
-namespace ProperWebAPI
+namespace iTopAPIClient
 {
     public class Program
     {
@@ -27,10 +27,10 @@ namespace ProperWebAPI
                     // logging.AddFileLogger(); 
                     logging.AddFileLogger(options =>
                     {
-                        options.Folder = @"C:\logs\ProperWebAPI";
+                        options.Folder = @"C:\logs\iTopAPIClient";
                         options.MaxFileSizeInMB = 5;
                         options.RetainPolicyFileCount = 5;
-                        options.FileName = "ProperWebAPI";
+                        options.FileName = "iTopAPIClient";
                     });
                 });
     }

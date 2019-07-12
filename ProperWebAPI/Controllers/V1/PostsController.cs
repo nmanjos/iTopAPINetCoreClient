@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ProperWebAPI.Contract.V1;
-using ProperWebAPI.Contract.V1.Requests;
-using ProperWebAPI.Contract.V1.Response;
-using ProperWebAPI.Domain;
-using ProperWebAPI.Services;
+using iTopAPIClient.Contract.V1;
+using iTopAPIClient.Contract.V1.Requests;
+using iTopAPIClient.Contract.V1.Response;
+using iTopAPIClient.Domain;
+using iTopAPIClient.Services;
 
-namespace ProperWebAPI.Controllers
+namespace iTopAPIClient.Controllers
 {
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme) ]
     public class PostsController : Controller

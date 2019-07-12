@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProperWebAPI.Data;
+using iTopAPIClient.Data;
 
-namespace ProperWebAPI.Data.Migrations
+namespace iTopAPIClient.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20190623141808_AddedPost")]
@@ -179,7 +179,7 @@ namespace ProperWebAPI.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ProperWebAPI.Domain.Post", b =>
+            modelBuilder.Entity("iTopAPIClient.Domain.Post", b =>
                 {
                     b.Property<byte[]>("Id")
                         .ValueGeneratedOnAdd()
